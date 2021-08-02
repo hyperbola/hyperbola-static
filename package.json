@@ -23,15 +23,14 @@
     "generate": "./bin/generate.js"
   },
   "dependencies": {
-    "bootstrap": "^4.6.0",
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.2",
     "commander": "^8.1.0",
     "ejs": "^3.1.6",
-    "jquery": "^3.6.0",
     "js-yaml": "^4.1.0",
     "linkifyjs": "^2.1.9",
     "luxon": "^2.0.1",
     "paginate-array": "^2.1.0",
-    "popper.js": "^1.16.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
