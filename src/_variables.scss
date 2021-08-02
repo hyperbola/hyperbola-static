@@ -1,9 +1,4 @@
 $primary: rgb(40, 220, 220);
-$custom-colors: (
-  "primary": $primary,
-);
-
-$theme-colors: map-merge($theme-colors, $custom-colors);
 
 $hyperbola-bg-dark: #222;
 $hyperbola-bg-light: #444;

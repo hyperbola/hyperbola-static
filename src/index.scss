@@ -2,6 +2,12 @@
 @import "bootstrap";
 @import "header";
 
+$custom-colors: (
+  "primary": $primary,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
 .hyperbola-section-title {
   background-color: $hyperbola-bg-light;
   color: $primary;
