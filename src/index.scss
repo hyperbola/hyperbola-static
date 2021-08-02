@@ -20,5 +20,5 @@
 }
 
 .hyperbola-text-timestamp {
-  color: lighten($text-muted, 20%);
+  color: tint-color($text-muted, 20%);
 }
