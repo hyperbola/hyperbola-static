@@ -2,6 +2,12 @@
 @import "bootstrap";
 @import "header";
 
+$custom-colors: (
+  "primary": $primary,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
 .hyperbola-section-title {
   background-color: $hyperbola-bg-light;
   color: $primary;
@@ -20,5 +26,5 @@
 }
 
 .hyperbola-text-timestamp {
-  color: lighten($text-muted, 20%);
+  color: tint-color($text-muted, 20%);
 }
