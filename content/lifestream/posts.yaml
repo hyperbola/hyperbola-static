@@ -4068,3 +4068,9 @@
   post: >-
     Most crates are no-std when possible, 100% documented, and I think pretty
     high quality. #patch #rust
+- id: 805
+  publishDate: "2021-08-02T15:28:47Z"
+  post: >-
+    Yay! hyperbo.la is running Bootstrap v5. This upgrade was actually really
+    small! Just some small changes to the Sass for customizing colors and
+    updates to the navbar. #win
