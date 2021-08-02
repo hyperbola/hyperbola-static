@@ -4074,3 +4074,11 @@
     Yay! hyperbo.la is running Bootstrap v5. This upgrade was actually really
     small! Just some small changes to the Sass for customizing colors and
     updates to the navbar. #win
+- id: 806
+  publishDate: "2021-08-02T15:30:46Z"
+  post: >-
+    I got a PR in artichoke suggesting to bump down the frequency of dependabot
+    updates to monthly. I applied this change across all artichoke, hyperbola,
+    and lopopolo repositories. It has been a big quality of life improvement and
+    cuts down on a lot of churn in JS dependencies. Applying dep updates once a
+    month is 👍 #win #artichoke
